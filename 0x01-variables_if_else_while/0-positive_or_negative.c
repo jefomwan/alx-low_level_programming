@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * return:0
+ * return:
  */
 int main(void)
 {
