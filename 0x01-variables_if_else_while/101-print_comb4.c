@@ -5,21 +5,23 @@
  */
 int main(void)
 {
-	int a, b, c;
+	int a, b, c, d;
 
 	a = 0;
 
-	while (a < 100)
+	while (a < 1000)
 	{
 		b = a % 10;
-		c = a / 10;
+		c = (a / 10) % 10;
+		d = a / 100;
 
-		if (b > c)
+		if (b > c && c > d)
 		{
+			putchar(d + '0');
 			putchar(c + '0');
 			putchar(b + '0');
 
-			if (a < 89)
+			if (a < 789)
 			{
 				putchar(44);
 				putchar(32);
