@@ -2,7 +2,7 @@
 /**
  * main - check the code
  * reset_to_98 - updates value of the variable
- * n is the variable to be updated
+ * @n: is the variable to be updated
  *
  * Return: Always 0.
  */
