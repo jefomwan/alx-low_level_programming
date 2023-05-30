@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main - check the code
- * reset_to_98 - updates value of the variable
+ * reset_to_98:  updates value of the variable
+ * the pointer to 98
  * @n: is the variable to be updated
  *
  * Return: Always 0.
